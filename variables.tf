@@ -16,6 +16,7 @@ variable "vpc_id" {
 
 variable "sg_description" {
   type = string
+  # default = ""
 }
 
 variable "common_tags" {
